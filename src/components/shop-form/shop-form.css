@@ -35,6 +35,12 @@ legend {
   justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  .shop-form form {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 hr {
   color: #5d4dc7;
   border: 0.1rem dashed;

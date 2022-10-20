@@ -44,3 +44,23 @@
 .taco-params::-webkit-scrollbar {
   display: none;
 }
+
+@media (max-width: 768px) {
+  #app {
+    overflow: hidden;
+  }
+  .content::-webkit-scrollbar {
+    display: none;
+  }
+  .content {
+    overflow: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .taco-params {
+    overflow: unset;
+  }
+}
