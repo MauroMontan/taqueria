@@ -1,5 +1,6 @@
 {
   "name": "taqueria",
+  "type": "module",
   "version": "1.0.0",
   "description": "taqueria Ui  example",
   "main": "index.js",

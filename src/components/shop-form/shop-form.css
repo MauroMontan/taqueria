@@ -1,0 +1,41 @@
+.shop-form {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.shop-form form {
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+legend {
+  background-color: #fff176;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  padding: 0.4rem;
+}
+.shop-form fieldset {
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  height: min-content;
+  gap: 0.5rem;
+}
+
+.shop-form fieldset .order-tile {
+  background-color: #e1ebff;
+  display: flex;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  justify-content: space-between;
+}
+
+hr {
+  color: #5d4dc7;
+  border: 0.1rem dashed;
+}

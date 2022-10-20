@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.appbar {
+  position: absolute;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 3;
+  width: 100%;
+  font-size: 1.2rem;
+  height: 5vh;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.links {
+  width: 100%;
+  display: inline;
+}
+
+.links ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.links ul li {
+  list-style: none;
+  font-weight: 800;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: unset;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.actions button {
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: unset;
+}
+
+.actions button:hover {
+  background-color: #efefef;
+}
+
+.actions button span {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 767px) {
+  .appbar {
+    justify-content: space-between;
+  }
+  .appbar .links {
+    display: none;
+  }
+}

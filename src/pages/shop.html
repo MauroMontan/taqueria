@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    @import url("../css/global.css");
+    @import url("../components/appbar/appbar.css");
+    @import url("../components/shop-content/shop-content.css");
+    @import url("../components/shop-form/shop-form.css");
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <main class="content">
+      <div class="taco-params">
+        <div class="shop-form">
+          <form>
+            <fieldset>
+              <legend>Selecciona una o mas salsas:</legend>
+
+              <div>
+                <input type="checkbox" id="verd" name="verde" value="verde" checked />
+                <label for="verde">Salsa Verde</label>
+              </div>
+
+              <div>
+                <input type="checkbox" id="verde-picante" name="verde-picante" value="verde-picante" checked />
+                <label for="verde-picante">Salsa Verde que pica</label>
+              </div>
+
+              <div>
+                <input type="checkbox" id="roja" name="roja" value="roja" />
+                <label for="roja">Salsa roja</label>
+              </div>
+
+              <div>
+                <input type="checkbox" id="roja-picante" name="roja-picante" value="roja-picante" />
+                <label for="roja-picante">Salsa roja que pica</label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Select a maintenance drone:</legend>
+
+              <div>
+                <input type="radio" id="arina" name="tortilla" value="arina" checked />
+                <label for="huey">Tortilla de Arina</label>
+              </div>
+
+              <div>
+                <input type="radio" id="maiz" name="tortilla" value="maiz" />
+                <label for="maiz">Tortilla de Maiz</label>
+              </div>
+
+              <div>
+                <input type="radio" id="main-azul" name="tortilla" value="maiz-azul" />
+                <label for="maiz-azul">Tortilla de Maiz Azul</label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Selecciona tus ingredientes :</legend>
+              <div>
+                <input type="checkbox" id="cilantro" name="cilantro" value="cilantro" />
+                <label for="cilantro">Cilantro</label>
+              </div>
+
+              <div>
+                <input type="checkbox" id="cebolla" name="cebolla" value="cebolla" />
+                <label for="cebolla">Cebolla</label>
+              </div>
+
+              <div>
+                <input type="checkbox" id="rabano" name="rabano" value="rabano" />
+                <label for="rabano">Rabano</label>
+              </div>
+
+              <div>
+                <input type="checkbox" id="cebolla morada" name="cebolla morada" value="cebolla morada" />
+                <label for="cebolla morada">Cebolla Morada</label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Ordenes</legend>
+
+              <div class="order-tile">
+                <span>Tacos al pastor</span>
+                <span>Contiene: 24 tacos</span>
+              </div>
+              <div class="order-tile">
+                <span>Tacos de Carnitas</span>
+                <span>Contiene: 8 tacos</span>
+              </div>
+              <div class="order-tile">
+                <span>Tacos de Barbacoa</span>
+                <span>Contiene: 16 tacos</span>
+              </div>
+              <hr />
+
+              <div class="order-tile">
+                <span>Total</span>
+                <span>1064 $</span>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <div class="taco-class">
+        <div class="taco-tile">
+          <img
+            src="https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt="taco al pastor" />
+        </div>
+        <div class="taco-tile">
+          <img
+            src="https://images.unsplash.com/photo-1524412529635-a258ed66c010?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=795&q=80"
+            alt="taco de barbacoa" />
+        </div>
+        <div class="taco-tile">
+          <img src="https://live.staticflickr.com/3264/2754659744_daa9dd26a7_b.jpg" alt="taco de birria" />
+        </div>
+        <div class="taco-tile">
+          <img
+            src="https://images.unsplash.com/photo-1648437595587-e6a8b0cdf1f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            alt="taco de carnitas" />
+        </div>
+        <div class="taco-tile">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/TacoSuaderoDF.JPG" alt="taco de suadero" />
+        </div>
+        <div class="taco-tile">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnPeWQPQLoIgMAlOn6_9FTeOZen05Zt5I6X_Vt5ZTQEMumnmhCfKOiJZOxu3BzU1mQ8q4&usqp=CAU"
+            alt="taco de asada" />
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="../components/appbar/appbar.js" type="module"></script>
+</body>
+
+</html>
