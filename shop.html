@@ -43,13 +43,36 @@
                 <label for="roja-picante">Salsa roja que pica</label>
               </div>
             </fieldset>
+            <fieldset>
+              <legend>Añadir bebidas a la orden</legend>
+
+              <div>
+                <input type="checkbox" id="add-drink" name="add-drink" value="add-drink" />
+                <label for="roja-picante">Añadir Bebida</label>
+              </div>
+
+              <div>
+                <input type="radio" id="one" name="drink" value="one" checked />
+                <label for="one">1 Litro</label>
+              </div>
+
+              <div>
+                <input type="radio" id="medium" name="drink" value="medium" />
+                <label for="medium">600 ml</label>
+              </div>
+
+              <div>
+                <input type="number" id="drink-amount" name="drink-amount" max="10" />
+                <label for="drink-amount">Cantidad</label>
+              </div>
+            </fieldset>
 
             <fieldset>
               <legend>Selecciona un tipo de tortilla:</legend>
 
               <div>
                 <input type="radio" id="arina" name="tortilla" value="arina" checked />
-                <label for="huey">Tortilla de Arina</label>
+                <label for="arina">Tortilla de Arina</label>
               </div>
 
               <div>
@@ -86,6 +109,23 @@
               </div>
             </fieldset>
 
+            <fieldset>
+              <legend>Cambia el tamaño de tus ordenes</legend>
+              <span>(Maximo 30 tacos por orden, 5 por minimo)</span>
+              <div>
+                <input step="5" type="range" name="order1" id="order" value="10" maxlength="30" />
+                <label for="order">Tacos al Pastor</label>
+              </div>
+
+              <div>
+                <input step="5" type="range" name="order1" id="order" value="10" maxlength="30" />
+                <label for="order">Tacos de Carnitas</label>
+              </div>
+              <div>
+                <input step="5" type="range" name="order1" id="order" value="10" maxlength="30" />
+                <label for="order">Tacos de Barbacoa</label>
+              </div>
+            </fieldset>
             <fieldset>
               <legend>Ordenes</legend>
 

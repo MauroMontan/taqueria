@@ -35,6 +35,18 @@ legend {
   justify-content: space-between;
 }
 
+input[type="number"] {
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  width: 3rem;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  background-color: #e1ebff;
+
+  padding-top: 0.35rem;
+}
+
 @media (max-width: 768px) {
   .shop-form form {
     grid-template-columns: repeat(1, 1fr);
