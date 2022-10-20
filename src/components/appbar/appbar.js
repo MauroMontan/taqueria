@@ -9,8 +9,8 @@ export class Appbar {
       <div class="logo">🌮</div>
       <nav class="links">
         <ul>
-          <li><a href="/src/pages/index.html"> Home </a></li>
-          <li><a href="/src/pages/shop.html"> Comprar </a></li>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="shop.html"> Comprar </a></li>
           <li><a href="#"> Carrito </a></li>
           <li><a href="#"> Pedidos </a></li>
         </ul>
