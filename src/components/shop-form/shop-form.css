@@ -35,6 +35,12 @@ legend {
   justify-content: space-between;
 }
 
+input[type="range"],
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: rgb(255, 255, 128);
+}
+
 input[type="number"] {
   font-size: 1.1rem;
   border: none;
