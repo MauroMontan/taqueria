@@ -37,8 +37,8 @@
 }
 
 .taco-tile:hover {
-  box-shadow: rgba(100, 100, 111, 0.6) 0px 7px 29px 0px;
   transform: scale(105%);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 25px 0px;
 }
 
 .taco-params::-webkit-scrollbar {

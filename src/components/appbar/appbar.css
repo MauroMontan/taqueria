@@ -7,7 +7,6 @@
 .appbar {
   position: absolute;
   top: 0;
-  background-color: #ffffff;
   z-index: 3;
   width: 100%;
   font-size: 1.2rem;
@@ -34,6 +33,10 @@
   font-weight: 800;
 }
 
+a {
+  text-decoration: none;
+}
+
 .links ul li a {
   text-decoration: none;
   color: unset;
@@ -52,9 +55,16 @@
   border-radius: 0.5rem;
   background-color: unset;
 }
+.actions label {
+  display: flex;
+}
 
 .actions button:hover {
   background-color: #efefef;
+}
+
+input[type="checkbox"] {
+  display: none;
 }
 
 .actions button span {

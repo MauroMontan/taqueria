@@ -11,6 +11,7 @@
   "author": "MauroMontan",
   "license": "ISC",
   "dependencies": {
+    "live-server": "^1.2.2",
     "node-static": "^0.7.11"
   }
 }

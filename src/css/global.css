@@ -2,17 +2,25 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
 
+:root,
+:root.light {
+  --color-scheme: light;
+}
+
+:root.dark {
+  --color-scheme: dark;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  color: #130b43;
+  color-scheme: var(--color-scheme);
 }
 
 #app {
   width: 100%;
-  background-color: #fbfcfe;
   height: 100vh;
   display: flex;
   flex-direction: column;

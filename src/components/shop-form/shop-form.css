@@ -12,12 +12,13 @@
 
 legend {
   background-color: #fff176;
+  color: black;
   border-radius: 0.5rem;
   font-weight: bold;
   padding: 0.4rem;
 }
 .shop-form fieldset {
-  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 15px 0px;
   display: flex;
   flex-direction: column;
   border: none;
@@ -28,7 +29,6 @@ legend {
 }
 
 .shop-form fieldset .order-tile {
-  background-color: #e1ebff;
   display: flex;
   border-radius: 0.5rem;
   padding: 0.5rem;
@@ -48,8 +48,6 @@ input[type="number"] {
   width: 3rem;
   padding: 0.3rem;
   border-radius: 0.5rem;
-  background-color: #e1ebff;
-
   padding-top: 0.35rem;
 }
 
@@ -60,6 +58,5 @@ input[type="number"] {
 }
 
 hr {
-  color: #5d4dc7;
   border: 0.1rem dashed;
 }
