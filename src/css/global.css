@@ -5,10 +5,16 @@
 :root,
 :root.light {
   --color-scheme: light;
+
+  --title-color: #f28fad;
+  --accent-color: #f8bd96;
 }
 
 :root.dark {
   --color-scheme: dark;
+  --background-color: #11111b;
+  --title-color: #ddb6f2;
+  --accent-color: #abe9b3;
 }
 
 * {
@@ -17,6 +23,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   color-scheme: var(--color-scheme);
+  background-color: var(--background-color);
 }
 
 #app {
@@ -25,4 +32,5 @@
   display: flex;
   flex-direction: column;
   overflow: auto;
+  justify-content: start;
 }
