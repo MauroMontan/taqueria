@@ -57,19 +57,21 @@ a {
 }
 .actions label {
   display: flex;
+  color: var(--highlight-color);
 }
 
 .actions button:hover {
-  background-color: #efefef;
+  background-color: var(--hover-color);
 }
 
-input[type="checkbox"] {
+.actions input[type="checkbox"] {
   display: none;
 }
 
 .actions button span {
+  background-color: transparent;
   font-weight: bolder;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 @media (max-width: 767px) {

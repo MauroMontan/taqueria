@@ -5,9 +5,9 @@
 :root,
 :root.light {
   --color-scheme: light;
-
+  --hover-color: #efefef;
   --title-color: #f28fad;
-  --accent-color: #f8bd96;
+  --accent-color: #ddb6f2;
 }
 
 :root.dark {
@@ -15,6 +15,8 @@
   --background-color: #11111b;
   --title-color: #ddb6f2;
   --accent-color: #abe9b3;
+  --hover-color: rgba(0, 0, 0, 0.3);
+  --highlight-color: #fae3b0;
 }
 
 * {
